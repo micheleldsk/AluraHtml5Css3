@@ -1,0 +1,105 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #044afc;
+    text-decoration: underline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input_padrao {
+    display: block;
+    border: 0.5px solid #000000;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    background: url("assets/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.sendButton {
+    width: 20%;
+    padding: 15px;
+    background: #132551;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background: #6183d7;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 30px 0 50px;
+}
+
+thead {
+    background: #BBBBBB;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
