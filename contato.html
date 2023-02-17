@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style_contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
     <title>Contato</title>
 </head>
 <body>
@@ -13,16 +14,17 @@
             <h1><img src="assets/logo.png" alt="logo"></h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li class="menuHeader"><a href="index.html">Home</a></li>
+                    <li class="menuHeader"><a href="produtos.html">Produtos</a></li>
+                    <li class="menuHeader"><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>    
     </header>
 
     <main>
-        <form>
+        <div class="box">
+            <form>
             <label for="input_nome">Nome completo</label>
             <input type="text" id="input_nome" class="input_padrao" required>
             <label for="input_email">E-mail</label>
@@ -33,7 +35,7 @@
             <label for="input_msg">Mensagem</label>
             <textarea id="input_msg" class="input_padrao" cols="62" rows="10" required></textarea>
             
-            <fieldset>
+            <fieldset class="contato">
                 <legend>Como prefere o nosso contato?</legend>
                 <label for="radio_email">
                     <input type="radio" name="opcao_radio" value="email" id="radio_email">
@@ -48,7 +50,7 @@
                     WhatsApp</label>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="horario">
                 <legend>Qual horário prefere ser atendido?</legend>
                     <select name="" id="">
                         <option value="">Manhã</option>
@@ -63,8 +65,7 @@
                 Gostaria de receber nossas novidades por email?</label>
 
             <input type="submit" value="Enviar Formulário" class="sendButton">
-        </form>
-
+            </form>
         <table>
             <thead>
                 <tr>
@@ -86,8 +87,8 @@
                     <td>8h ~ 20h</td>
                 </tr>
             </tbody>
-            
         </table>
+        </div>
     </main>
 
     <footer>
