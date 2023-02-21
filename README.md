@@ -1,4 +1,4 @@
-# alura
 
-Barbearia Alura - project HTML5 e CSS3;
-By micheleldsk;
+< Alura Barbearia | HTML5 - CSS3 />
+
+# alura
